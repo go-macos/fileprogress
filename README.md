@@ -40,6 +40,12 @@ package exists, and it is worth repeating rather than trusting, because the
 failure is silent — the attribute approach has tests that pass and a feature
 that does nothing.
 
+Confirmed a second time, end to end: a downloader wired to this package draws
+the pie on a real download of a real file, watched in a real Finder. The tests
+here cannot show that, and never could — they prove the object is made, kept,
+updated and taken back, which is exactly what the attribute version also proved
+about itself.
+
 ## Notes
 
 - The published object is retained. What a class method hands back is
